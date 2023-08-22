@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="src/estilos/reset.css">
+    <link rel="stylesheet" href="src/estilos/style.css">
+    <link rel="stylesheet" href="src/estilos/responsivo.css">
+
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <title>Portfólio - Diego S. Baradel</title>
+</head>
+
+<body>
+    <main id="conteiner" class="conteiner">
+
+        <section id="apresentacao" class="apresentacao secao">
+
+            <header id="cabecalio" class="cabecalio">
+                <h1 id="titulo-cabecalio" class="titulo">Portfólio</h1>
+                <button id="btn-tema" class="botao"><img id="botao-tema" src="./src/imagens/tema-escuro.png" alt="imagem de tema claro"></button>
+            </header>
+
+            <div id="div-secao-apresentacao" class="div-secao-apresentacao">
+                <div id="div-apresentacao" class="div-apresentacao">
+                    <div class="texto-apresentacao">
+                        <div>
+                            <p><span id="texto-boas-vindas"></span>, eu me chamo</p>
+                            <h2>Diego S. Baradel.</h2>
+                        </div>
+                        <div>
+                            <p>Seja bem-vindo ao meu</p>
+                            <h2>Portfólio.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-sobre-min" class="div-sobre-min">
+                    <div class="texto-sobre-min">
+                        <div>
+                            <p>
+                                Estou buscando meu primeiro emprego na de web desing, sou baicharel em Ciências da Computação na <a href="https://www.uscs.edu.br" target="_blank"><abbr title="Universidade de São Caetano do Sul">USCS</abbr></a>.
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                Este portfólio visa o objetivo mostrar os meus conhecimentos em <strong>HTML5</strong>, <strong>CSS3</strong> e <strong>Java Script</strong>, além de ser uma janela para mostrar os meus projetos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="div-links" class="div-links">
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/diego-baradel-b645521a6/" target="_blank">
+                            <img id="logo-linkedin" src="./src/imagens/linkedin-in.png" alt="logo do linkedin">
+                        </a>
+                        <a href="https://github.com/DiegoBaradel" target="_blank">
+                            <img id="logo-github" src="./src/imagens/github.png" alt="logo do github">
+                        </a>
+                        
+                        <a href="src/curriculo/curriculo.pdf" download="curriculo.pdf" type="application/pdf">
+                            <img id="logo-download" src="src/imagens/download.png" alt="imagem de download">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="projetos-pessoais" class="projetos-pessoais secao">
+        
+            <div id="vitrine-projetos-pessoais" class="vitrine-projetos-pessoais">
+                <h2 class="titulo">
+                    Projetos Pessoais
+                </h2>
+                
+                <div id="cards" class="cards">
+                    <div class="card-projetos-pessoais">
+                
+                        <div id="imagem-card-projetos-pessoais" class="imagem-card-projetos-pessoais">
+                            <img src="./src/imagens/numero-secreto-01.png" alt="projeto numero secreto">
+                        </div>
+                        <div class="texto-card-projetos-pessoais">
+                            <h2>Projeto Numero Secreto</h2>
+                            <p>Projeto criado com base em um jogo de adivinhação de números. Esse projeto tem como objetivo pricipal, mostrar o uso da linguagem JavaScript na pratica em conjunto com o estilo do CSS3 e da estrutura HTML5.</p>
+                        </div>
+                    </div>
+                    <div class="card-projetos-pessoais">
+                
+                        <div id="imagem-card-projetos-pessoais" class="imagem-card-projetos-pessoais">
+                            <img src="./src/imagens/maravilhas-01.png" alt="projeto maravilhas"></div>
+                
+                        <div class="texto-card-projetos-pessoais">
+                            <h2>Projeto Maravilhas</h2>
+                            <p>O projeto mostrar as 7 maravilhas do mundo, junto com um texto que fala um pouco sobre ela. 
+                            Projeto criado com o objetivo de mostrar a estrutura HTNL5 em conjunto com o estilo CSS3 com um pouco de interatividade usando JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    
+        <section id="projetos-eventos" class="projetos-eventos secao">
+
+            <div id="vitrine-projetos-eventos" class="vitrine-projetos-eventos">
+                <h2 class="titulo">
+                    Projetos de Eventos
+                </h2>
+                <div id="slide-projetos-eventos" class="slide-projetos-eventos">
+                    <div id="imagem-slide" class="imagem-slide">
+                
+                        <img class="site-evento" src="./src/imagens/mario.png" alt="site do mario">
+                        <img class="site-evento" src="./src/imagens/pokemon.png" alt="site do pokemon">
+                        <img class="site-evento" src="./src/imagens/the-last-of-us.png" alt="site the last of us">
+                        <img class="site-evento" src="./src/imagens/x-men.png" alt="site do x-men">
+                    </div>
+                    <div id="div-botao-slide" class="div-botao-slide">
+                        <button class="botao-slide botao-ativo"></button>
+                        <button class="botao-slide"></button>
+                        <button class="botao-slide"></button>
+                        <button class="botao-slide"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+    <script src="src/js/index.js"></script>
+    <script src="src/js/span.js"></script>
+</body>
+</html>

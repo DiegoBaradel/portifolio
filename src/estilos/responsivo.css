@@ -1,0 +1,128 @@
+@media (max-width:1700px) {
+    .projetos-eventos .slide-projetos-eventos{
+        width: 800px;
+        height: 400px;
+    }
+    .projetos-eventos .slide-projetos-eventos .imagem-slide{
+        width: 800px;
+    }
+}
+@media (max-width:1200px) {
+    .apresentacao .cabecalio{
+        width: calc(100% - 20px);
+    }
+    .apresentacao .div-secao-apresentacao{
+        width: calc(100% - 20px);
+    }
+    .projetos-pessoais .vitrine-projetos-pessoais{
+        width: calc(100% - 20px);
+    }
+    .projetos-eventos .vitrine-projetos-eventos{
+        width: calc(100% - 20px);
+    }
+}
+@media (max-width:890px) {
+    .apresentacao .cabecalio .titulo{
+        font-size: 1.5em;
+    }
+    .apresentacao .div-secao-apresentacao .div-apresentacao .texto-apresentacao{
+        min-width: 300px;
+        font-size: 1.3em;
+    }
+    .apresentacao .div-secao-apresentacao .div-sobre-min .texto-sobre-min{
+        max-width: 300px;
+        min-height: 200px;
+        font-size: 1em;
+    }
+    .apresentacao .div-secao-apresentacao .div-links img{
+        width: 80px;
+    }
+    .apresentacao::after{
+        background-image: none;
+    }
+    .apresentacao .cabecalio .botao img{
+        width: 80%;
+    }
+    .projetos-eventos .slide-projetos-eventos{
+        width: 600px;
+        height: 300px;
+    }
+    .projetos-eventos .slide-projetos-eventos .imagem-slide{
+        width: 600px;
+    }
+}
+
+@media (max-width:630px){
+    .apresentacao .div-secao-apresentacao{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        min-height: calc(100svh - 80px);
+    }
+    .apresentacao .div-secao-apresentacao .div-apresentacao{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .apresentacao .div-secao-apresentacao .div-sobre-min{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .apresentacao .div-secao-apresentacao .div-links{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .projetos-pessoais .vitrine-projetos-pessoais .card-projetos-pessoais .texto-card-projetos-pessoais{
+        font-size: 0.7em;
+    }
+    .projetos-eventos .slide-projetos-eventos{
+        width: 300px;
+        height: 150px;
+    }
+    .projetos-eventos .slide-projetos-eventos .imagem-slide{
+        width: 300px;
+    }
+    .projetos-eventos .slide-projetos-eventos .div-botao-slide .botao-slide{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .apresentacao .cabecalio .titulo{
+        font-size: 1.3em;
+    }
+    .apresentacao .div-secao-apresentacao .div-apresentacao .texto-apresentacao{
+        min-width: 200px;
+        font-size: 1em;
+    }
+    .apresentacao .div-secao-apresentacao .div-sobre-min .texto-sobre-min{
+        max-width: 200px;
+        min-height: 150px;
+        font-size: 0.8em;
+    }
+    .apresentacao .div-secao-apresentacao .div-links img{
+        width: 50px;
+    }
+    .apresentacao .cabecalio .botao img{
+        width: 50%;
+    }
+    .projetos-pessoais .vitrine-projetos-pessoais .card-projetos-pessoais .texto-card-projetos-pessoais{
+        font-size: 0.6em;
+    }
+    .projetos-eventos .slide-projetos-eventos{
+        width: 200px;
+        height: 100px;
+    }
+    .projetos-eventos .slide-projetos-eventos .imagem-slide{
+        width: 200px;
+    }
+    .projetos-eventos .slide-projetos-eventos .div-botao-slide .botao-slide{
+        width: 10px;
+        height: 10px;
+    }
+}
