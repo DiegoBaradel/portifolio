@@ -12,7 +12,7 @@
    align-items: center;
    justify-content: flex-start;
    width: 100%;
-   min-height: 100svh;
+   min-height: 100dvh;
 }
 .apresentacao::after{
    content: '';
