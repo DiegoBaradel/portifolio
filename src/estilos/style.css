@@ -14,31 +14,23 @@
    width: 100%;
    min-height: 100svh;
 }
-.apresentacao::after{
-   content: '';
-   position: fixed;
+.div-imagem-fundo-apresentacao{
+   position: absolute;
    top: 0;
    left: 0;
    width: 100%;
-   min-height: 100%;
-   background-image: url(../imagens/fundo.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   opacity: 0.1;
+   height: 100%;
    z-index: -1;
-}
-.apresentacao::before{
-   content: '';
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   min-height: 100%;
    background-color: #181927;
-   z-index: -2;
 }
-.tema .apresentacao::before{
+.tema .div-imagem-fundo-apresentacao{
    background-color: #fee7ba;
+}
+.div-imagem-fundo-apresentacao img{
+   width: 100%;
+   object-fit: cover;
+   min-height: 100svh;
+   opacity: 0.1;
 }
 .apresentacao .cabecalio{
    margin-top: 10px;
@@ -238,7 +230,7 @@
    align-items: center;
    justify-content: space-between;
    width: 100%;
-   min-height: 100px;
+   height: 100px;
    border-radius: 0px 0px 5px 5px;
    background-color: #000000;
    color: #eee;
@@ -298,7 +290,7 @@
    transition: left 0.5s;
 }
 .projetos-eventos .slide-projetos-eventos .imagem-slide .site-evento{
-   width: 100%;
+   width: 1200px;
    object-fit: cover;
 }
 .projetos-eventos .slide-projetos-eventos .div-botao-slide{
